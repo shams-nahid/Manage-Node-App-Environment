@@ -1,0 +1,32 @@
+{
+  "name": "manageEnvironment",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "js",
+    "node.js",
+    "environment",
+    "dotenv",
+    "dotEnv"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmshamsnahid/Manage-Node-App-Environment"
+  },
+  "author": "Shams Nahid",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
